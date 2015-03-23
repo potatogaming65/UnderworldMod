@@ -1,0 +1,17 @@
+//package com.Gruble.dimension;
+//
+//import net.minecraftforge.common.DimensionManager;
+//
+//public class DimensionRegistry {
+//	public static void mainRegistry(){
+//		registerDimension();
+//	}
+//	
+//	public static final int dimensionId = 8;
+//	
+//	
+//	public static void registerDimension(){
+//		//DimensionManager.registerProviderType(dimensionId, WorldProviderUnderworld.class, false);
+//		//DimensionManager.registerDimension(dimensionId, dimensionId);
+//	}
+//}

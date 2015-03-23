@@ -1,0 +1,18 @@
+package com.Gruble.biome;
+
+import net.minecraft.entity.monster.EntityCaveSpider;
+import net.minecraft.init.Blocks;
+import net.minecraft.world.biome.BiomeGenBase;
+
+public class BiomeGenDeath extends BiomeGenBase{
+	public BiomeGenDeath(int id){
+		super(id);
+		
+		this.theBiomeDecorator.treesPerChunk = 2;
+		this.theBiomeDecorator.grassPerChunk = 2;
+		this.topBlock = Blocks.grass;
+		this.fillerBlock = Blocks.nether_brick;
+		this.spawnableCreatureList.add(new SpawnListEntry(EntityCaveSpider.class, 5, 2, 16));
+		this.theBiomeDecorator.bigMushroomsPerChunk = 6;
+	}
+}

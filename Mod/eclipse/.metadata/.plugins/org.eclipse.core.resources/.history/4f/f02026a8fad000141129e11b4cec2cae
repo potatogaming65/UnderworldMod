@@ -1,0 +1,22 @@
+//package com.Gruble.dimension;
+//
+//import net.minecraft.world.WorldProvider;
+//import net.minecraft.world.biome.WorldChunkManagerHell;
+//import net.minecraft.world.chunk.IChunkProvider;
+//
+//import com.Gruble.biome.BiomeRegistry;
+//
+//public class WorldProviderUnderworld extends WorldProvider{
+//	public void registerWorldChunkManager(){
+//		this.worldChunkMgr = new WorldChunkManagerHell(BiomeRegistry.biomeDeath, 0.05F);
+//		this.dimensionId = DimensionRegistry.dimensionId;
+//	}
+//	
+//	public IChunkProvider createChunkGeneration(){
+//		return null;
+//	}
+//	
+//	public String getDimensionName(){
+//		return "Underworld";
+//	}
+//}

@@ -1,0 +1,36 @@
+[18:25:09] [main/INFO]: Setting user: Player309
+[18:25:16] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:25:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GrubleMod
+[18:25:28] [Sound Library Loader/INFO]: Sound engine started
+[18:25:36] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:25:36] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:25:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GrubleMod
+[18:25:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:25:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:25:38] [Sound Library Loader/INFO]: Sound engine started
+[18:25:53] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:25:53] [Server thread/INFO]: Generating keypair
+[18:25:54] [Server thread/INFO]: Preparing start region for level 0
+[18:25:55] [Server thread/INFO]: Preparing spawn area: 1%
+[18:25:56] [Server thread/INFO]: Preparing spawn area: 21%
+[18:25:57] [Server thread/INFO]: Preparing spawn area: 61%
+[18:25:58] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:26:01] [Server thread/INFO]: Player309[local:E:f42bc2bb] logged in with entity id 347 at (-224.73784502156497, 71.0, 176.44561839320397)
+[18:26:01] [Server thread/INFO]: Player309 joined the game
+[18:26:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4945ms behind, skipping 98 tick(s)
+[18:26:35] [Client thread/INFO]: Warning: Clientside chunk ticking took 302 ms
+[18:26:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 145 ms
+[18:27:04] [Server thread/INFO]: Player309 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[18:27:04] [Server thread/INFO]: Player309 left the game
+[18:27:04] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[18:27:04] [Server thread/INFO]: Saving and pausing game...
+[18:27:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:27:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:27:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:27:06] [Server thread/INFO]: Stopping server
+[18:27:06] [Server thread/INFO]: Saving players
+[18:27:06] [Server thread/INFO]: Saving worlds
+[18:27:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:27:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:27:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:27:12] [Client thread/INFO]: Stopping!

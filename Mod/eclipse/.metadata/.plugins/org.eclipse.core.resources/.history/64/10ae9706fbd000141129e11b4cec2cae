@@ -1,0 +1,43 @@
+package com.Gruble.main;
+
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.world.WorldType;
+import com.Gruble.blocksitems.BlocksAndItems;
+import com.Gruble.enchantments.EnchantmentSpeedBoost;
+import com.Gruble.lib.Strings;
+import com.Gruble.world.GrubleWorld;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.Mod.Metadata;
+import cpw.mods.fml.common.ModMetadata;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = Strings.MODID, version = Strings.VERSION)
+public class GrubleMod
+{	
+    @Metadata
+    public static ModMetadata meta;
+    
+    @Instance(Strings.MODID)
+    public static GrubleMod modInstance;
+    
+    public static final Enchantment speedBoost = new EnchantmentSpeedBoost(84, 5);
+    
+    @EventHandler
+    public void preInit(FMLPreInitializationEvent event){
+    	BlocksAndItems.registries();
+    }
+        
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+    	BlocksAndItems.init();
+    	BlocksAndItems.registries();
+    	GrubleWorld.mainRegistry();
+    }
+}
